@@ -3,11 +3,11 @@ Library     SeleniumLibrary
 Library     String
 
 ***Variables
-${caminho}      Oficina>Relatórios
+${caminho}      MODULO>Relatórios
 
 ***Test Cases
 Testar Split 
-    Split "Produtos>Relatórios>Nota Fiscal>Notas Fiscais Emitidas"
+    Split "MODULO>Relatórios>Notas Fiscais Emitidas"
 
 Concatenar Caminho "${caminho}"
     Concat Caminho "${caminho}"
