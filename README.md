@@ -1,16 +1,17 @@
 # DRB Robot Lib
-Projeto Robot para Automatização de Testes de regressão.
-Criando alguns recursos legais em Robot.
+Pequena Lib iniciada para compartilhar um pouco de conhecimento sobre Automatização de Testes com RobotFramework utilizando SeleniumLibrary.
+Com esta lib, pode já sair do zero para iniciar a montar sua lib de testes de regressão.
+Comecei compartilhando a seguir alguns recursos legais em Robot e pretendo seguir criando e compartilhando por aqui.
 
-# Status do desenvolvimento
-1. Arquivo Base.robot possui
-- Login básico.
-- Opção de rodar browser headless ou normal.
-- Rotina para montagem dinamica de casos de testes.
-Exemplo de uso: Em um ERP, suponha que possui vários menus de relatórios, um para cada "módulo" do sistema. E que algo em torno de 80% dos relatórios do sistema tem uma característica de ter uma tela de execução que já carrega automaticamente todos os seus parâmetros preenchidos. 
-Neste exemplo, seria então viável fazer uma automação simples para cada relatório, ou seja, criar um test case para cada!? Sim, poderia fazer um teste para cada report, mas isso geraria muita alteração manual, pouco reaproveitamento, etc, etc. Deste modo não estaria fazendo um código "DRY" (don't repeat yourself).
-
-Criar cada teste isoladamente, copiar, colar, alterar cada um...
+# Resumo
+1. Base.robot é onde estão as principais Keywords usadas no projeto, a idéia é que vá desenvolvendo as suas Keywords que podem ser reusadas e coloque-as juntas.
+Este arquivo tem basicamente:
+- Login básico com checagem de abertura da página.
+- Opção de rodar browser headless ou normal (passando variável browser na linha de comando).
+- Rotina para montagem dinamica de casos de testes (abaixo cito referência).
+- Exemplo de uso: Em um ERP, suponha que possui vários menus de relatórios, um para cada "módulo" do sistema. E que algo em torno de 80% dos relatórios do sistema tem uma característica de ter uma tela de execução que já carrega automaticamente todos os seus parâmetros preenchidos. 
+Neste exemplo, seria então viável fazer uma automação simples para cada relatório, ou seja, criar um test case para cada!? Sim, poderia fazer um teste para cada report, mas isso geraria muita alteração manual, pouco reaproveitamento, etc. 
+Criar cada teste isoladamente, copiar, colar, alterar cada um... Deste modo não estaria fazendo um código "DRY" (don't repeat yourself).
 
 Ai que vem a mágica!
 
