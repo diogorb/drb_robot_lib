@@ -7,7 +7,7 @@ Suite setup     Inicia Recursividade
 Suite Teardown  Encerra Sessão 
 
 ***Variables
-${url}          https://qatoriba.dealernetworkflow.com.br
+${url}          https://seusite.com.br
 
 *** Test cases ***
 PlaceHolder Test
