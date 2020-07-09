@@ -8,9 +8,9 @@ Criando alguns recursos legais em Robot.
 - Opção de rodar browser headless ou normal.
 - Rotina para montagem dinamica de casos de testes.
 Exemplo de uso: Em um ERP, suponha que possui vários menus de relatórios, um para cada "módulo" do sistema. E que algo em torno de 80% dos relatórios do sistema tem uma característica de ter uma tela de execução que já carrega automaticamente todos os seus parâmetros preenchidos. 
-Neste exemplo, seria então viável fazer uma automação simples para cada relatório, ou seja, criar um test case para cada!? Sim, poderia fazer um teste para cada report, mas isso geraria muita alteração manual, pouco reaproveitamento, etc, etc. Mas deste modo não estaria fazendo um código "DRY" (don't repeat yourself).
+Neste exemplo, seria então viável fazer uma automação simples para cada relatório, ou seja, criar um test case para cada!? Sim, poderia fazer um teste para cada report, mas isso geraria muita alteração manual, pouco reaproveitamento, etc, etc. Deste modo não estaria fazendo um código "DRY" (don't repeat yourself).
 
-Cria cada teste isoladamente, copiar, colar, alterar cada um...
+Criar cada teste isoladamente, copiar, colar, alterar cada um...
 
 Ai que vem a mágica!
 
