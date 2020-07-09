@@ -19,7 +19,7 @@ Dado que preciso consultar SERVIÇO
 ***Keywords
 E preencho data de abertura do SERVIÇO
     ${doisMesesAntes} =  DateExtraction.Return Inicio dois Meses Antes
-    Select Frame                xpath=//div[@id="W5Window_0"]//iframe[@class='W5Portal_Window_Frame']
+    Select Frame                xpath=//div[@id="ID_DIV"]//iframe[@class='FRAME_CLASS']
     Convert To String           ${doisMesesAntes}
     Wait Until Element Is Visible       id:vDATAINICIO
     sleep                       3
@@ -30,10 +30,10 @@ E preencho data de abertura do SERVIÇO
     Click Element               xpath=//input[contains(@onclick, 'REFRESH')]
 
 E clico no primeiro SERVIÇO que aparece
-    Click Element               xpath=//tr[@id='GridosContainerRow_0001']//a
+    Click Element               xpath=//tr[@id='ID_GRID_ELEMENT1']//a
     sleep                       5
 
 Então devo ver o resumo do SERVIÇO
-    Wait Until Element Is Visible        id:TABLETIPOOS2
+    Wait Until Element Is Visible        id:TABELADADOS
     Capture Page Screenshot     
 
